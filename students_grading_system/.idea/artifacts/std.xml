@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="std">
+    <output-path>$PROJECT_DIR$/out/artifacts/std</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="students_grading_system" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="javax.servlet.jstl" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.28.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="students_grading_system/web/Web" />
+    </root>
+  </artifact>
+</component>
